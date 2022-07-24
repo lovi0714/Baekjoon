@@ -12,7 +12,7 @@ public class Main {
         int theHighestNumberOfThatFloor = 1;
 
         for(;;){
-            if(destination <= maxFloor) break;
+            if(destination <= theHighestNumberOfThatFloor) break;
             theHighestNumberOfThatFloor = theHighestNumberOfThatFloor + 6 * floor;
             floor += 1;
         }
